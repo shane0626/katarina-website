@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Music World</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Welcome to Music World</h1>
+            <nav>
+                <ul>
+                    <li><a href="#genres">Genres</a></li>
+                    <li><a href="#player">Music Player</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="genres" class="section">
+        <div class="container">
+            <h2>Genres of Music</h2>
+            <p>Explore a variety of music genres and discover your favorite tunes!</p>
+            <div class="genre-list">
+                <div class="genre">
+                    <h3>Rock</h3>
+                    <p>A genre characterized by a strong rhythm and often includes electric guitars.</p>
+                </div>
+                <div class="genre">
+                    <h3>Pop</h3>
+                    <p>Catchy and popular music that appeals to a broad audience.</p>
+                </div>
+                <div class="genre">
+                    <h3>Jazz</h3>
+                    <p>A music genre that originated in the African-American communities, known for improvisation.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="player" class="section">
+        <div class="container">
+            <h2>Music Player</h2>
+            <p>Play your favorite tracks right here!</p>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mp3">
+                Your browser does not support the audio element.
+            </audio>
+     
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <form action="#" method="post">
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Music World. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
